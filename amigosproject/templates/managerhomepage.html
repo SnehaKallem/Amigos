@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---styles for page-->
+    <style>
+         body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+    h1{
+        border-style:outset ;
+        border-width: 5px lightblue ;
+        text-align: center ;
+        color: white;
+        }
+    </style>
+</head>
+
+<h1>Admin Dashboard</h1>
+{% include 'navbar2.html' %}  <!-- it includes navbar2.html-->
+<body background="{% static '/hospitalapp/images/bg10.jpg'%}">
+
+</body>
+</html>
